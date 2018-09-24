@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83137" started-at="2018-09-23T23:01:37Z" finished-at="2018-09-23T23:03:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="83137" started-at="2018-09-23T23:01:37Z" finished-at="2018-09-23T23:03:00Z">
+      <class name="williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater">
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater@3532ec19]" name="LaunchURL" duration-ms="24439" started-at="2018-09-23T23:01:37Z" finished-at="2018-09-23T23:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method status="PASS" signature="LoginUrl()[pri:0, instance:williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater@3532ec19]" name="LoginUrl" duration-ms="12347" started-at="2018-09-23T23:02:02Z" depends-on-methods="williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater.LaunchURL" finished-at="2018-09-23T23:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUrl -->
+        <test-method status="PASS" signature="SelectTeaKettles()[pri:0, instance:williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater@3532ec19]" name="SelectTeaKettles" duration-ms="14345" started-at="2018-09-23T23:02:14Z" depends-on-methods="williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater.LoginUrl" finished-at="2018-09-23T23:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectTeaKettles -->
+        <test-method status="PASS" signature="SelectDesiredItems()[pri:0, instance:williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater@3532ec19]" name="SelectDesiredItems" duration-ms="14817" started-at="2018-09-23T23:02:28Z" depends-on-methods="williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater.SelectTeaKettles" finished-at="2018-09-23T23:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDesiredItems -->
+        <test-method status="PASS" signature="AddtoCart()[pri:0, instance:williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater@3532ec19]" name="AddtoCart" duration-ms="641" started-at="2018-09-23T23:02:43Z" depends-on-methods="williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater.SelectDesiredItems" finished-at="2018-09-23T23:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCart -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater@3532ec19]" name="quitbrowser" duration-ms="1" started-at="2018-09-23T23:02:44Z" depends-on-methods="williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater.SelectDesiredItems" finished-at="2018-09-23T23:02:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method status="PASS" signature="CheckOut()[pri:0, instance:williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater@3532ec19]" name="CheckOut" duration-ms="10442" started-at="2018-09-23T23:02:44Z" depends-on-methods="williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater.AddtoCart" finished-at="2018-09-23T23:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method status="PASS" signature="SaveForLater()[pri:0, instance:williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater@3532ec19]" name="SaveForLater" duration-ms="5989" started-at="2018-09-23T23:02:54Z" depends-on-methods="williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater.CheckOut" finished-at="2018-09-23T23:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveForLater -->
+      </class> <!-- williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

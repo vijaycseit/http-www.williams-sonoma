@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="williamssonoma1.williamssonoma1.WillismasSonomaB">
+        <methods>
+          <include name="LoginUrl"/>
+          <include name="cookware"/>
+        </methods>
+      </class> <!-- williamssonoma1.williamssonoma1.WillismasSonomaB -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater">
+        <methods>
+          <include name="CheckOut"/>
+          <include name="quitbrowser"/>
+          <include name="SelectDesiredItems"/>
+          <include name="SaveForLater"/>
+          <include name="SelectTeaKettles"/>
+          <include name="AddtoCart"/>
+          <include name="LoginUrl"/>
+          <include name="LaunchURL"/>
+        </methods>
+      </class> <!-- williamssonoma1.williamssonoma1.ValidationOfAddToCartAndSaveForLater -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
